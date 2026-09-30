@@ -3,6 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "389e14a0-c8ae-4f8b-95de-f29553ee6d99")
-	(paper "A4")
+	(paper "A2")
+	(title_block
+		(title "practice design")
+		(date "2026-09-30")
+		(rev "1")
+	)
 	(lib_symbols)
 )
