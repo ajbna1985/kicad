@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -607,6 +607,47 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf",
+      "Root"
+    ],
+    [
+      "e658b8ed-bbad-487b-848e-8e04e48b43c0",
+      "LaPanda Module"
+    ],
+    [
+      "dc3c01ed-4c1a-4ffc-b57d-00aa66dee251",
+      "PowerSupply"
+    ],
+    [
+      "259c3d94-424d-4775-b548-b0cce5d71fc7",
+      "Fan"
+    ],
+    [
+      "1c056fe3-363e-476e-b2b5-900fcba6ba5b",
+      "GPIO"
+    ],
+    [
+      "71be7a07-db75-4263-ad02-00a7dbc381e2",
+      "PCIe"
+    ],
+    [
+      "6427da98-9757-4f38-a8bb-9b24629f8a29",
+      "GigbitEthernet"
+    ],
+    [
+      "68f338e2-a107-4bfe-aa53-13bcf68fa0ac",
+      "USB 2&3"
+    ],
+    [
+      "261c6c19-a626-402c-8376-a21b737b5e52",
+      "HDMI"
+    ],
+    [
+      "eab5941e-2915-4345-ae73-32c6ab7bdfe0",
+      "M2 M Key"
+    ]
+  ],
   "text_variables": {}
 }
