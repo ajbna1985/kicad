@@ -494,8 +494,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -638,7 +638,7 @@
         "uuid": "4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf"
       }
     ],
-    "used_designators": "#FLG1,#PWR5-14,BT1,J1,R1-6,TP1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
