@@ -7177,6 +7177,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 71.12) (xy 255.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d200f0e-eddf-4767-aed4-3f05ada83e00")
+	)
+	(wire
+		(pts
 			(xy 336.55 177.8) (xy 340.36 177.8)
 		)
 		(stroke
@@ -7214,6 +7224,16 @@
 			(type default)
 		)
 		(uuid "115affec-7a68-488a-ac56-798464364aed")
+	)
+	(wire
+		(pts
+			(xy 250.19 68.58) (xy 255.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ad4ff7-5704-40e0-8052-87caaab0973b")
 	)
 	(wire
 		(pts
@@ -7544,6 +7564,16 @@
 			(type default)
 		)
 		(uuid "5725a19b-8d14-4bc0-86c5-38a656db0c28")
+	)
+	(wire
+		(pts
+			(xy 250.19 66.04) (xy 255.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576c6db8-0594-4932-9cc5-752aa25aa7af")
 	)
 	(wire
 		(pts
@@ -8257,6 +8287,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 73.66) (xy 255.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e764254f-ea30-4b04-a01e-db840787750a")
+	)
+	(wire
+		(pts
 			(xy 336.55 105.41) (xy 340.36 105.41)
 		)
 		(stroke
@@ -8883,6 +8923,30 @@
 			)
 		)
 	)
+	(global_label "~{PWR_LED}{slash}~{PSON}"
+		(shape output)
+		(at 250.19 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "229b0664-29f7-4945-a9fb-f86f13a4525a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.3277 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "REFCLK4-"
 		(shape output)
 		(at 340.36 110.49 0)
@@ -9339,6 +9403,30 @@
 			)
 		)
 	)
+	(global_label "~{PWR_SW}"
+		(shape input)
+		(at 250.19 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f3e4b9e-2a52-4ba0-9434-7df2e76935ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.5849 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "HSIO_1_TX-"
 		(shape output)
 		(at 250.19 96.52 180)
@@ -9648,6 +9736,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "~{RST_SW}"
+		(shape input)
+		(at 250.19 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d7ebd92-6eda-4235-a161-09b81fb77e22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.1292 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10344,6 +10456,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SLS_S3"
+		(shape output)
+		(at 250.19 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7d46c2e-3f80-4682-a998-c6a3cb2c41a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.3711 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
