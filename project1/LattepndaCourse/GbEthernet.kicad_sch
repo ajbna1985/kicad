@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "85cb73ee-8a58-404d-8a3e-9d64c217edf0")
-	(paper "A2")
+	(paper "A4")
 	(title_block
 		(title "practice design")
 		(date "2026-09-30")
