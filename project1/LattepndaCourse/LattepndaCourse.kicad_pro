@@ -582,6 +582,10 @@
       {
         "netclass": "90",
         "pattern": "*REFCLK*"
+      },
+      {
+        "netclass": "90",
+        "pattern": "*HSO*"
       }
     ]
   },
@@ -725,7 +729,7 @@
         "uuid": "4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf"
       }
     ],
-    "used_designators": "J8-16,#PWR57-69,C26-41,TP13",
+    "used_designators": "U10-13,R45-50,J15,C33,C42-56,#PWR70-80,Y1-2",
     "variants": []
   },
   "sheets": [
