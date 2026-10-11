@@ -586,6 +586,22 @@
       {
         "netclass": "90",
         "pattern": "*HSO*"
+      },
+      {
+        "netclass": "90",
+        "pattern": "*USB_2_P*"
+      },
+      {
+        "netclass": "90",
+        "pattern": "*USB3_SS*"
+      },
+      {
+        "netclass": "90",
+        "pattern": "*USB4_SS*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*GND*"
       }
     ]
   },
@@ -729,7 +745,7 @@
         "uuid": "4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf"
       }
     ],
-    "used_designators": "U10-13,R45-50,J15,C33,C42-56,#PWR70-80,Y1-2",
+    "used_designators": "J17-18,F1-4,C57-62,D19-22,#PWR21,#PWR81-94,U13-15",
     "variants": []
   },
   "sheets": [

@@ -5940,6 +5940,12 @@
 		(uuid "db5369b5-2bcd-49bc-88b5-9dc772bc23d0")
 	)
 	(junction
+		(at 105.41 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df254e2f-d07b-4a22-a423-865a68f4ccd6")
+	)
+	(junction
 		(at 515.62 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5970,12 +5976,6 @@
 		(uuid "e6c8e078-1abe-4ad1-8ef2-536860c3bf29")
 	)
 	(junction
-		(at 105.41 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8b5687b-4e3d-4e61-a4f9-c09e2b7ed69f")
-	)
-	(junction
 		(at 506.73 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5992,12 +5992,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f00ee839-2190-41ac-8d5b-2abcf8f96c74")
-	)
-	(junction
-		(at 105.41 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f67f610f-1265-442f-908f-1a1eed6c96f6")
 	)
 	(junction
 		(at 289.56 66.04)
@@ -7662,16 +7656,6 @@
 			(type default)
 		)
 		(uuid "81386229-a998-472a-be75-d75704f45d4b")
-	)
-	(wire
-		(pts
-			(xy 105.41 143.51) (xy 105.41 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ce69a3-6742-4d33-8dd8-a4168787b2d0")
 	)
 	(wire
 		(pts
@@ -10859,84 +10843,6 @@
 			(project "LattepndaCourse"
 				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/dc3c01ed-4c1a-4ffc-b57d-00aa66dee251"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12b41fea-cf4a-49b5-9eeb-85cb20a4e635")
-		(property "Reference" "#PWR021"
-			(at 105.41 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d39128e-eec1-4d45-8c1a-72b924151e7e")
-		)
-		(instances
-			(project "LattepndaCourse"
-				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/dc3c01ed-4c1a-4ffc-b57d-00aa66dee251"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16940,6 +16846,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 105.41 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b38f92b9-57cc-4346-825a-b876216b1c30")
+		(property "Reference" "#PWR021"
+			(at 105.41 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5523c0eb-c0ea-42c8-b626-6c05601a1e77")
+		)
+		(instances
+			(project "LattepndaCourse"
+				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/dc3c01ed-4c1a-4ffc-b57d-00aa66dee251"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 320.04 118.11 270)
 		(unit 1)
@@ -17248,85 +17232,6 @@
 			(project "LattepndaCourse"
 				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/dc3c01ed-4c1a-4ffc-b57d-00aa66dee251"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 105.41 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c121753f-7712-4e3c-ba60-5aef20b01fbd")
-		(property "Reference" "#FLG04"
-			(at 107.315 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 109.22 140.9699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 105.41 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "887550e9-3ce0-4043-a3ee-7055e5be640c")
-		)
-		(instances
-			(project "LattepndaCourse"
-				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/dc3c01ed-4c1a-4ffc-b57d-00aa66dee251"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
