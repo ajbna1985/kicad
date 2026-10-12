@@ -6606,61 +6606,61 @@
 			)
 		)
 		(pin "SH"
-			(uuid "8b21b151-dfad-42c7-8390-5881c625bd0d")
+			(uuid "8b21b151-dfad-42c7-8390-5881c625bd0e")
 		)
 		(pin "1"
-			(uuid "84552aed-54e5-4003-97d7-7b7fb42b02be")
+			(uuid "84552aed-54e5-4003-97d7-7b7fb42b02bf")
 		)
 		(pin "2"
-			(uuid "46336737-6a3d-4ebb-8d49-10c413bce140")
+			(uuid "46336737-6a3d-4ebb-8d49-10c413bce141")
 		)
 		(pin "4"
-			(uuid "9b350eb3-ef1b-4cf7-ab1c-4ab72b950feb")
+			(uuid "9b350eb3-ef1b-4cf7-ab1c-4ab72b950fec")
 		)
 		(pin "5"
-			(uuid "160d58e6-1fd7-4f09-bdfb-188179e8c055")
+			(uuid "160d58e6-1fd7-4f09-bdfb-188179e8c056")
 		)
 		(pin "6"
-			(uuid "924c3a7a-3c86-4b03-bf64-b74c17a793ca")
+			(uuid "924c3a7a-3c86-4b03-bf64-b74c17a793cb")
 		)
 		(pin "3"
-			(uuid "89b4aa49-e9d1-44c1-b96e-fda41ad5cc27")
+			(uuid "89b4aa49-e9d1-44c1-b96e-fda41ad5cc28")
 		)
 		(pin "7"
-			(uuid "d31185dd-8faa-4c11-a834-6911de3db4a2")
+			(uuid "d31185dd-8faa-4c11-a834-6911de3db4a3")
 		)
 		(pin "10"
-			(uuid "d4da176a-3beb-4485-9085-33d9ac6b07df")
+			(uuid "d4da176a-3beb-4485-9085-33d9ac6b07e0")
 		)
 		(pin "16"
-			(uuid "e5f985c8-232d-45a9-b88d-5e0de42a14f0")
+			(uuid "e5f985c8-232d-45a9-b88d-5e0de42a14f1")
 		)
 		(pin "8"
-			(uuid "09fa15ce-018d-4065-831a-358516239b94")
+			(uuid "09fa15ce-018d-4065-831a-358516239b95")
 		)
 		(pin "12"
-			(uuid "6d9ed473-6d85-46bd-9eaa-60828fdbb36e")
+			(uuid "6d9ed473-6d85-46bd-9eaa-60828fdbb36f")
 		)
 		(pin "14"
-			(uuid "64dfa9ba-9fc0-41fe-bdd6-850b79ddcc07")
+			(uuid "64dfa9ba-9fc0-41fe-bdd6-850b79ddcc08")
 		)
 		(pin "11"
-			(uuid "0def4787-c68b-4836-9318-57704b9dd7e8")
+			(uuid "0def4787-c68b-4836-9318-57704b9dd7e9")
 		)
 		(pin "9"
-			(uuid "17330d84-ec3e-4875-bb57-58ab68c4bf1b")
+			(uuid "17330d84-ec3e-4875-bb57-58ab68c4bf1c")
 		)
 		(pin "13"
-			(uuid "44f9b41e-d07b-4daf-b1f1-263817c0728c")
+			(uuid "44f9b41e-d07b-4daf-b1f1-263817c0728d")
 		)
 		(pin "15"
-			(uuid "3735db72-f159-4719-a7de-ba875b373515")
+			(uuid "3735db72-f159-4719-a7de-ba875b373516")
 		)
 		(pin "17"
-			(uuid "6d528d86-83c5-4a2b-aefd-c000125ff4ae")
+			(uuid "6d528d86-83c5-4a2b-aefd-c000125ff4af")
 		)
 		(pin "18"
-			(uuid "5a19db71-85e5-425e-bd58-a7635b51052b")
+			(uuid "5a19db71-85e5-425e-bd58-a7635b51052c")
 		)
 		(instances
 			(project "LattepndaCourse"

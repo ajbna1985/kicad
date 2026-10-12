@@ -602,6 +602,10 @@
       {
         "netclass": "Default",
         "pattern": "*GND*"
+      },
+      {
+        "netclass": "90",
+        "pattern": "*TMDS*"
       }
     ]
   },
@@ -745,7 +749,7 @@
         "uuid": "4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf"
       }
     ],
-    "used_designators": "J17-18,F1-4,C57-62,D19-22,#PWR21,#PWR81-94,U13-15",
+    "used_designators": "#PWR98-99,Q6-9,R60-61",
     "variants": []
   },
   "sheets": [
