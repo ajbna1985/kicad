@@ -4851,462 +4851,6 @@
 		)
 		(uuid "fd778fab-8bcf-4524-960a-59b5b4b40c9b")
 	)
-	(global_label "USB_2_P7+"
-		(shape bidirectional)
-		(at 175.26 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b9465fb-c56c-4579-a5cf-73541767ef10")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1569 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{WAKE}"
-		(shape input)
-		(at 168.91 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1303b30b-dfde-487c-b8ae-a2f3c9cd03da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.9658 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{PLT_RST}"
-		(shape input)
-		(at 171.45 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f387a8a-bf4f-4f70-a8f6-b1127a1d4157")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.7844 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_TX_1-"
-		(shape input)
-		(at 30.48 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28ed107b-b452-42c0-be42-dde62ce3d004")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.3068 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "REFCLKM+"
-		(shape output)
-		(at 30.48 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49552b06-ea27-4ae1-b940-77d4d8672006")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3953 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_TX_1+"
-		(shape input)
-		(at 30.48 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5839ce5c-d6b1-412b-a143-07c1233793b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.3068 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "REFCLKM-"
-		(shape output)
-		(at 30.48 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c23a1da-a9a8-483d-afa9-246c2989eb52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3953 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB_2_P7-"
-		(shape bidirectional)
-		(at 175.26 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b25dc8e-11dc-43c0-8709-a783d7c297a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1569 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{PLT_RST}"
-		(shape input)
-		(at 26.67 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b7efae0-592b-4f46-8487-4147f8b4e349")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0044 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_RX_0-"
-		(shape output)
-		(at 175.26 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "998196fa-3872-42f7-9e46-912441698194")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.7844 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_RX_0+"
-		(shape output)
-		(at 175.26 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9fda8172-d1b3-4ecc-89be-2c82bf542f31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.7844 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_TX_0+"
-		(shape input)
-		(at 175.26 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a79c76b0-412f-42a7-8474-0a184fe0f228")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0868 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SUSCLK"
-		(shape output)
-		(at 273.05 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b261bd55-b8e3-4bac-8939-e10d6f92a8aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.3528 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB_2_P7+"
-		(shape bidirectional)
-		(at 175.26 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9bf0dfe-5605-46b7-804a-5c84ae65bf9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1569 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_RX_1-"
-		(shape output)
-		(at 30.48 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba3e6f8f-1954-4433-b1d1-5509784b2f49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0044 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_RX_1+"
-		(shape output)
-		(at 30.48 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1b82f32-bf6b-4a87-a22d-149b2c39bfca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0044 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_TX_0-"
-		(shape input)
-		(at 175.26 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1cde964-bab3-41ae-bc91-008353cf4db7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0868 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB_2_P7-"
-		(shape bidirectional)
-		(at 175.26 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1965414-743d-4707-bf9e-7e959de86bc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1569 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{WAKE}"
-		(shape input)
-		(at 24.13 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e64fb63f-fcec-4ad4-a5f7-c2bd64f1b0b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1858 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SUSCLK"
 		(shape output)
 		(at 132.08 124.46 0)
@@ -5330,6 +4874,215 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "PCIE_TX_1+"
+		(shape input)
+		(at 30.48 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b0839c5-f44e-4a31-8b56-a978b010d04e")
+	)
+	(hierarchical_label "USB_2_P7+"
+		(shape bidirectional)
+		(at 175.26 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21ed7bdb-92be-4092-a0c1-bd7923ab0251")
+	)
+	(hierarchical_label "~{WAKE}"
+		(shape input)
+		(at 24.13 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39ae0472-5b10-43e3-8afe-2d5fdb8d01ee")
+	)
+	(hierarchical_label "PCIE_RX_1-"
+		(shape output)
+		(at 30.48 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bdb6218-8cfe-4de9-96d9-314d6176b077")
+	)
+	(hierarchical_label "PCIE_TX_0-"
+		(shape input)
+		(at 175.26 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "439c33d8-87dc-4353-be8c-de085c8703a1")
+	)
+	(hierarchical_label "PCIE_TX_1-"
+		(shape input)
+		(at 30.48 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "492a3781-e3d7-493c-ab84-6c6f7fe35aec")
+	)
+	(hierarchical_label "REFCLKM+"
+		(shape output)
+		(at 30.48 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d7748f1-10a8-47a1-ad92-430bd19bb572")
+	)
+	(hierarchical_label "PCIE_RX_0+"
+		(shape output)
+		(at 175.26 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "742ba6dd-3c8c-427e-a641-3b68468bfd48")
+	)
+	(hierarchical_label "~{WAKE}"
+		(shape input)
+		(at 168.91 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "819e1082-2c27-4efa-aef7-328657850ff3")
+	)
+	(hierarchical_label "REFCLKE-"
+		(shape bidirectional)
+		(at 175.26 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "956716f4-78b0-446a-8764-8ac9f8eeadeb")
+	)
+	(hierarchical_label "PCIE_RX_1+"
+		(shape output)
+		(at 30.48 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96c44789-3834-4bc7-b0b6-8de52d16afa9")
+	)
+	(hierarchical_label "~{PLT_RST}"
+		(shape input)
+		(at 171.45 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a88fa1d5-4b1e-46e2-b02b-372fdd8f5101")
+	)
+	(hierarchical_label "PCIE_RX_0-"
+		(shape output)
+		(at 175.26 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be2583ff-72cd-4c86-a500-5143888b400c")
+	)
+	(hierarchical_label "SUSCLK"
+		(shape output)
+		(at 273.05 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c186de77-561c-4f12-8b3b-af85d8edca65")
+	)
+	(hierarchical_label "PCIE_TX_0+"
+		(shape input)
+		(at 175.26 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c36ce81f-c47e-4d67-97b0-09c05a6d198e")
+	)
+	(hierarchical_label "REFCLKM-"
+		(shape output)
+		(at 30.48 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd4f74aa-f3e9-4936-8c98-e9078306fdbf")
+	)
+	(hierarchical_label "USB_2_P7-"
+		(shape bidirectional)
+		(at 175.26 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0278336-e0ae-4cce-b189-12473055d5e5")
+	)
+	(hierarchical_label "REFCLKE+"
+		(shape bidirectional)
+		(at 175.26 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e84de1f8-9f90-482f-8692-79b268020982")
+	)
+	(hierarchical_label "~{PLT_RST}"
+		(shape input)
+		(at 26.67 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea79e0fd-ef6c-4108-a97c-f53377299d62")
 	)
 	(symbol
 		(lib_id "Device:C_Small")

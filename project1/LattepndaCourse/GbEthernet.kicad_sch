@@ -6978,173 +6978,82 @@
 		)
 		(uuid "f8912ee9-3aa8-4b47-84da-c316458fb163")
 	)
-	(global_label "GbE_PCIe_CLK+"
-		(shape input)
-		(at 53.34 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "00e2a1c1-ee87-40c9-b6b1-487b179e8d12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4777 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{PLT_RST}"
-		(shape input)
-		(at 53.34 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24f0b795-9d7a-4396-a340-adb407fa7409")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6744 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GbE_PCIe_RX-"
-		(shape output)
-		(at 53.34 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40bf70bd-a5a6-4a36-9832-6e26b1370c57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5663 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GbE_PCIe_CLK-"
-		(shape input)
-		(at 53.34 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ae146c5-89d7-4479-8baf-eaed29120058")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4777 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GbE_PCIe_TX+"
-		(shape input)
-		(at 53.34 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba85feb4-25c4-4371-bcb9-58c656885152")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8687 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GbE_PCIe_TX-"
-		(shape input)
-		(at 53.34 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c4dd369d-5aaa-49b2-8dc4-5ad73ac0fd7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8687 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GbE_PCIe_RX+"
+	(hierarchical_label "GbE_PCIe_RX+"
 		(shape output)
 		(at 53.34 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ddefe03a-0876-4040-b890-1d0c17e48ba6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5663 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "016b0f49-8ec4-4f33-afb7-ae3b8b017ded")
+	)
+	(hierarchical_label "GbE_PCIe_TX+"
+		(shape input)
+		(at 53.34 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "6c0ba49b-a060-4d02-b189-d5680b6bc61c")
+	)
+	(hierarchical_label "GbE_PCIe_CLK-"
+		(shape input)
+		(at 53.34 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d6e180e-bb0b-42e5-bab7-dce1533f0d0d")
+	)
+	(hierarchical_label "~{PLT_RST}"
+		(shape input)
+		(at 53.34 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a8f0d8a-5988-4048-a87c-85ff90c047f7")
+	)
+	(hierarchical_label "GbE_PCIe_TX-"
+		(shape input)
+		(at 53.34 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5894f2c-1787-43c9-8895-664cff031e81")
+	)
+	(hierarchical_label "GbE_PCIe_RX-"
+		(shape output)
+		(at 53.34 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed1fcfba-758c-498f-acd7-612bd513960d")
+	)
+	(hierarchical_label "GbE_PCIe_CLK+"
+		(shape input)
+		(at 53.34 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f508571f-e518-434d-9f31-20db94a6e29e")
 	)
 	(symbol
 		(lib_id "power:GND")

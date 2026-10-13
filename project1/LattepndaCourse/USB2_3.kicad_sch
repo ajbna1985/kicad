@@ -3690,16 +3690,6 @@
 		)
 		(uuid "fa0d8ed8-e2f9-4a8d-a072-6bfdbe43f593")
 	)
-	(label "CON_USB1_D_N"
-		(at 196.85 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02b56875-b355-4db9-9a9a-53ad8d615fee")
-	)
 	(label "CON_USB4_SSRX_N"
 		(at 76.2 93.98 0)
 		(effects
@@ -3709,16 +3699,6 @@
 			(justify left bottom)
 		)
 		(uuid "0ac998d7-4ffc-45d9-8f40-ae3b71ec68e0")
-	)
-	(label "CON_USB2_D_N"
-		(at 196.85 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ef45129-ef3a-4289-abe1-b3024a2dcfbc")
 	)
 	(label "CON_USB3_D_P"
 		(at 76.2 45.72 0)
@@ -3900,16 +3880,6 @@
 		)
 		(uuid "896df6c6-db7b-4cce-9579-63f354d38d9e")
 	)
-	(label "CON_USB2_D_P"
-		(at 196.85 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a409ccfb-6b79-48a2-ab81-290273784bdc")
-	)
 	(label "CON_USB2_D_N"
 		(at 213.36 53.34 0)
 		(effects
@@ -3960,16 +3930,6 @@
 		)
 		(uuid "d5c8f2c7-def6-4741-8483-9e0b39db019d")
 	)
-	(label "CON_USB1_D_P"
-		(at 196.85 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dbb6f025-25dc-420f-a3dc-4d62823c843c")
-	)
 	(label "CON_USB3_SSRX_P"
 		(at 76.2 53.34 0)
 		(effects
@@ -4010,389 +3970,225 @@
 		)
 		(uuid "f0ab795d-6268-46ec-b0cc-268a9fcc20e5")
 	)
-	(global_label "USB2_P3+"
-		(shape bidirectional)
-		(at 196.85 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1af39161-f180-43d9-9555-bc80c99741f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7145 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB2_P1-"
-		(shape bidirectional)
-		(at 55.88 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21d56f0f-c067-4c23-96ba-23fce0ca48b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7445 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB2_P5-"
-		(shape bidirectional)
-		(at 196.85 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a1aeea0-34af-42c7-a700-71948b773fc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7145 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB3_SSXT_P"
-		(shape bidirectional)
-		(at 55.88 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b3e2eab-a2f9-45ac-9083-f35c34802317")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9627 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB2_P1+"
-		(shape bidirectional)
-		(at 55.88 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "52ea09bd-803a-4ee4-a40a-bcc222ed2a2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7445 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB4_SSRT_P"
-		(shape bidirectional)
-		(at 55.88 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "56cc8822-ac40-46f8-b17c-294e4d761172")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9022 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB3_SSRT_P"
-		(shape bidirectional)
-		(at 55.88 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a2a90e5-a453-41aa-a64e-d3cfbfb8ebe1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9022 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB4_SSXT_N"
-		(shape bidirectional)
-		(at 55.88 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61f888b4-b0d2-4d33-b7f8-9a5480c68cf5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9022 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB2_P2+"
-		(shape bidirectional)
-		(at 55.88 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "68789d3f-f190-4227-bac1-e3a9df2b3adc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7445 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB3_SSXT_N"
-		(shape bidirectional)
-		(at 55.88 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "734ed206-ada5-45dd-9d2a-da9fe98b5e43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9022 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB3_SSRT_N"
-		(shape bidirectional)
-		(at 55.88 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79aaa21c-0d57-426b-b2aa-568b6b2fcc55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.8417 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB2_P3-"
+	(hierarchical_label "USB2_P3-"
 		(shape bidirectional)
 		(at 196.85 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "93617d34-c58e-4aba-b06d-7a4df67e8cdb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7145 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "1aae45ce-61d1-4120-86bf-f2fb901effaa")
 	)
-	(global_label "USB2_P2-"
-		(shape bidirectional)
-		(at 55.88 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97251a9a-1adf-48f0-99d6-2387890c5744")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7445 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB_2_P5+"
-		(shape bidirectional)
-		(at 196.85 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9841f380-4d1f-4a10-8c30-9f3a75cc398a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7469 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB4_SSXT_P"
-		(shape bidirectional)
-		(at 55.88 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba8e7e24-2810-4112-9fd5-6d364ab99562")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9627 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB4_SSRT_N"
+	(hierarchical_label "USB4_SSRT_N"
 		(shape bidirectional)
 		(at 55.88 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f1c20bb7-757d-42e1-bb11-0a3b9ead620a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.8417 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "2a470e96-0f95-4382-80f3-11addf0acddf")
+	)
+	(hierarchical_label "CON_USB2_D_P"
+		(shape bidirectional)
+		(at 196.85 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "38edcca6-6f3d-4b0b-9493-5a73c950a30b")
+	)
+	(hierarchical_label "USB2_P3+"
+		(shape bidirectional)
+		(at 196.85 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42833bf8-1a21-409b-adf8-6766700520e0")
+	)
+	(hierarchical_label "USB2_P5+"
+		(shape bidirectional)
+		(at 196.85 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49ecab8b-f033-4d7d-9a77-04f10de173c0")
+	)
+	(hierarchical_label "USB4_SSXT_N"
+		(shape bidirectional)
+		(at 55.88 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa3bb34-5442-4756-aca0-b44781a37bfd")
+	)
+	(hierarchical_label "USB2_P2-"
+		(shape bidirectional)
+		(at 55.88 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66c41125-8e98-42c3-93e1-f8a24576fe15")
+	)
+	(hierarchical_label "USB3_SSXT_N"
+		(shape bidirectional)
+		(at 55.88 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78089168-7f94-4ac4-b730-8d65f513dc78")
+	)
+	(hierarchical_label "CON_USB2_D_N"
+		(shape bidirectional)
+		(at 196.85 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "843fb3e8-5228-452d-923b-7c631f2d35fe")
+	)
+	(hierarchical_label "CON_USB1_D_P"
+		(shape bidirectional)
+		(at 196.85 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e130fa0-113f-4017-83ad-ae2b17f71cbb")
+	)
+	(hierarchical_label "USB2_P1-"
+		(shape bidirectional)
+		(at 55.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94036672-507e-4ee5-bd4f-cf25a005143f")
+	)
+	(hierarchical_label "USB2_P5-"
+		(shape bidirectional)
+		(at 196.85 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "947e6058-3ede-4fca-8e59-178d0d57c7b4")
+	)
+	(hierarchical_label "USB4_SSRT_P"
+		(shape bidirectional)
+		(at 55.88 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b52cfb25-438b-4e3f-98cc-42f0ea18a350")
+	)
+	(hierarchical_label "USB4_SSXT_P"
+		(shape bidirectional)
+		(at 55.88 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5d46e8c-206d-412a-8ef1-532c09755ec7")
+	)
+	(hierarchical_label "CON_USB1_D_N"
+		(shape bidirectional)
+		(at 196.85 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c93afdcc-2515-451f-89d3-521932015607")
+	)
+	(hierarchical_label "USB3_SSRT_P"
+		(shape bidirectional)
+		(at 55.88 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2867111-8324-4d71-8b81-479f286220df")
+	)
+	(hierarchical_label "USB2_P2+"
+		(shape bidirectional)
+		(at 55.88 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2910421-82e0-4e5a-b4e5-d8a4d8685f30")
+	)
+	(hierarchical_label "USB3_SSXT_P"
+		(shape bidirectional)
+		(at 55.88 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee26497a-82d1-4dee-bbbd-a37ff8ce5376")
+	)
+	(hierarchical_label "USB3_SSRT_N"
+		(shape bidirectional)
+		(at 55.88 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef602b05-1e8a-46db-b410-c7b5dd6e2c65")
+	)
+	(hierarchical_label "USB2_P1+"
+		(shape bidirectional)
+		(at 55.88 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1306417-2d75-49d0-ace7-fb17139dbca1")
 	)
 	(symbol
 		(lib_id "Connector:USB3_A_Stacked")

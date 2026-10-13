@@ -8688,7 +8688,7 @@
 		)
 		(uuid "44f3cab1-4a8e-42f4-92ca-ec3161d868e0")
 	)
-	(hierarchical_label "UART2_TXD"
+	(hierarchical_label "SCO_UART2_TX"
 		(shape output)
 		(at 340.36 195.58 0)
 		(effects
@@ -8820,7 +8820,7 @@
 		)
 		(uuid "69d17026-9552-45ce-a8f2-2fba5d9bf7d9")
 	)
-	(hierarchical_label "UART0_RXD"
+	(hierarchical_label "SCO_UART0_RX"
 		(shape input)
 		(at 340.36 182.88 0)
 		(effects
@@ -8853,7 +8853,7 @@
 		)
 		(uuid "74cb53b8-ef9e-4f31-90d5-c0a57d1fa9c5")
 	)
-	(hierarchical_label "UART2_RXD"
+	(hierarchical_label "SCO_UART2_RX"
 		(shape input)
 		(at 340.36 193.04 0)
 		(effects
@@ -9117,7 +9117,7 @@
 		)
 		(uuid "ae76ebf3-2ec6-45d4-9c90-f7affd556c53")
 	)
-	(hierarchical_label "UART1_RXD"
+	(hierarchical_label "SCO_UART1_RX"
 		(shape input)
 		(at 340.36 187.96 0)
 		(effects
@@ -9205,7 +9205,7 @@
 		)
 		(uuid "b7a56e54-6ff8-4f6f-8809-17508cc5124e")
 	)
-	(hierarchical_label "UART1_TXD"
+	(hierarchical_label "SCO_UART1_TX"
 		(shape output)
 		(at 340.36 190.5 0)
 		(effects
@@ -9458,7 +9458,7 @@
 		)
 		(uuid "f574b952-516c-459f-8861-6cce4c26377f")
 	)
-	(hierarchical_label "UART0_TXD"
+	(hierarchical_label "SCO_UART0_TX"
 		(shape output)
 		(at 340.36 185.42 0)
 		(effects
