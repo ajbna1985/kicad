@@ -2431,125 +2431,70 @@
 		)
 		(uuid "f50a2f14-ae0e-4f7f-b483-c3c45a0cf4ac")
 	)
-	(global_label "FAN_2_PWM"
-		(shape input)
-		(at 143.51 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 151.13 124.46) (xy 151.13 127)
 		)
-		(uuid "1fe5f3e5-5f60-4798-b48b-9c884bd027ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6996 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "f62f3c0f-9c83-4faa-a07b-a1cba2aad0c9")
 	)
-	(global_label "TEMP"
-		(shape output)
-		(at 58.42 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a006f1c-1672-4a8a-9c6c-6cf4276c5240")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5968 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN_1_TAC"
-		(shape output)
-		(at 142.24 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "52e00870-ddf0-403d-b3e4-7ffb2453ac92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.2762 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN_2_TAC"
-		(shape output)
-		(at 142.24 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a4c6e12-2af1-47d1-b42e-815f81663b56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.2762 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN_1_PWM"
+	(hierarchical_label "FAN_1_PWM"
 		(shape input)
 		(at 143.51 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c3e2e142-7885-4f8a-9d9e-f1613e3a2350")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6996 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "01aab0aa-a2d2-4885-b42f-060755bef58b")
+	)
+	(hierarchical_label "TEMP"
+		(shape output)
+		(at 58.42 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "1922792c-c0cc-4434-bc22-d3fe84f15790")
+	)
+	(hierarchical_label "FAN_2_TAC"
+		(shape input)
+		(at 142.24 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e34ce87-5aa6-44e0-b40c-c82ad5c9187f")
+	)
+	(hierarchical_label "FAN_2_PWM"
+		(shape input)
+		(at 143.51 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ddad2a9-bdf1-48c4-b226-d67c431e9aee")
+	)
+	(hierarchical_label "FAN_1_TAC"
+		(shape input)
+		(at 142.24 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c70bd5c3-82e2-4b88-8c35-fabbd4a268cc")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -4699,6 +4644,84 @@
 			(project "LattepndaCourse"
 				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/259c3d94-424d-4775-b548-b0cce5d71fc7"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcdb7e29-41b4-4b28-b15e-7218cf42e08a")
+		(property "Reference" "#PWR0121"
+			(at 151.13 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 151.13 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "694dedfb-c27a-4652-9a82-f91c1b958f62")
+		)
+		(instances
+			(project "LattepndaCourse"
+				(path "/4e04f3a7-ba43-4db9-8bbc-1a27efcf5abf/259c3d94-424d-4775-b548-b0cce5d71fc7"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)

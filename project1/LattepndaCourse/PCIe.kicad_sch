@@ -2179,16 +2179,16 @@
 		(uuid "4cf437af-95b9-48eb-a712-83925e4fb199")
 	)
 	(junction
+		(at 133.35 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56253b88-5118-4243-8f5a-2d4d957e3d2a")
+	)
+	(junction
 		(at 171.45 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62943c56-9ff6-4ef3-8d17-bdf2427bfd6d")
-	)
-	(junction
-		(at 133.35 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bac95afe-ce0b-49df-a369-4f706b34b706")
 	)
 	(junction
 		(at 177.8 81.28)
@@ -2612,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 133.35 62.23)
+			(xy 133.35 57.15) (xy 133.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3038,485 +3038,225 @@
 		)
 		(uuid "f374d93a-3c0b-43c0-8f9b-2af7f83ca173")
 	)
-	(global_label "PCIE_TX_1+"
-		(shape input)
-		(at 88.9 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05217273-3e21-4536-9211-fb40db9103e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "REFCLK-"
-		(shape input)
-		(at 107.95 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3af3c0fc-6426-4bb6-b1bc-b297c926ebfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3167 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_RX_3+"
-		(shape input)
-		(at 185.42 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3eb40bf1-0f23-40b9-b509-011b9a1f9703")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PCIE_RX_1+"
-		(shape input)
-		(at 185.42 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43f5e41f-df2f-4db9-8020-7142bd846335")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PCIE_RX_2+"
-		(shape input)
-		(at 185.42 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "486ff15d-d7bf-42a8-94f7-f64341d22e13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PCIE_TX_0-"
-		(shape input)
-		(at 88.9 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d11270f-95f4-4b45-87c4-56d8407c180e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "REFCLK+"
+	(hierarchical_label "REFCLK+"
 		(shape input)
 		(at 107.95 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5a6b1b40-a8d2-408e-8a50-680812957d36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3167 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "0c82bd0d-f598-4095-8218-8671901ba38d")
 	)
-	(global_label "PCIE_TX_3-"
-		(shape input)
-		(at 88.9 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fe35ff4-f976-4337-8222-80a9f3d1a046")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_TX_1-"
-		(shape input)
-		(at 88.9 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a95f0945-b967-455b-985b-78af5d97a894")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_TX_2+"
-		(shape input)
-		(at 88.9 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0edb56b-c71a-42b4-8bd9-84016954a17e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PCIE_RX_2-"
-		(shape input)
-		(at 185.42 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7b6c5cf-d8eb-4ff5-bb55-8d2c05e6f285")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PCIE_TX_0+"
+	(hierarchical_label "PCIE_TX_0+"
 		(shape input)
 		(at 88.9 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c61fe323-fb4d-4a98-b551-eceae7662cad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "30ff1b08-8b4c-4de8-95ec-b19b60a71681")
 	)
-	(global_label "PCIE_RX_1-"
-		(shape input)
-		(at 185.42 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c80d7298-ad97-41c8-bb17-75cea7345e08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PCIE_TX_3+"
+	(hierarchical_label "PCIE_TX_3+"
 		(shape input)
 		(at 88.9 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "dd650160-e0b4-4890-b974-a856bc9604c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "3634773f-b656-4415-b799-9104133221b0")
 	)
-	(global_label "PCIE_RX_3-"
-		(shape input)
-		(at 185.42 132.08 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "PCIE_RX_2+"
+		(shape output)
+		(at 185.42 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ea5816c1-db5f-4b6b-9a6a-fd225d0789e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "3e3e4adb-8aa9-4682-934e-12426c3e500e")
 	)
-	(global_label "PE_RST"
-		(shape input)
-		(at 185.42 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eab3b167-42ea-4798-a977-2b2c920f80ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.2389 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PCIE_TX_2-"
+	(hierarchical_label "PCIE_TX_2-"
 		(shape input)
 		(at 88.9 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f2039135-ae4d-4373-a81e-d8d59fdf1165")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7268 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "4df77991-aa3b-4668-b86e-e282bbb665c1")
 	)
-	(global_label "PCIE_RX_0+"
-		(shape input)
-		(at 185.42 114.3 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "PCIE_RX_3+"
+		(shape output)
+		(at 185.42 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fdf269ed-0389-4183-8c60-a776e768a159")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "56e9c0af-ef04-474c-903e-a27980a60ba3")
 	)
-	(global_label "~{WAKE}"
+	(hierarchical_label "REFCLK-"
+		(shape input)
+		(at 107.95 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5725e173-e565-4b11-b311-8a1ac23daba7")
+	)
+	(hierarchical_label "~{WAKE}"
 		(shape input)
 		(at 185.42 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fe8de223-0efd-4bd3-b082-487fc178e6cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.3642 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "5b99863a-6559-4a43-b0e3-0eece833778e")
 	)
-	(global_label "PCIE_RX_0-"
+	(hierarchical_label "PCIE_TX_1-"
 		(shape input)
-		(at 185.42 116.84 0)
-		(fields_autoplaced yes)
+		(at 88.9 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67362ed5-20b6-4e4f-a4b6-000b949c39f3")
+	)
+	(hierarchical_label "PCIE_TX_3-"
+		(shape input)
+		(at 88.9 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7105bee6-2b18-431a-a011-cdd6e21d9630")
+	)
+	(hierarchical_label "PCIE_TX_0-"
+		(shape input)
+		(at 88.9 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d7be6e4-5437-45ed-92e0-f1be1d962990")
+	)
+	(hierarchical_label "PCIE_TX_2+"
+		(shape input)
+		(at 88.9 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d510659-ab6c-4d0f-8838-28deadcdf2e6")
+	)
+	(hierarchical_label "PCIE_RX_3-"
+		(shape output)
+		(at 185.42 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ff5c1b9f-c82b-4b49-b7b0-68a4b1f0cd75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "901ca297-33ff-4b9d-af81-0cd96bd4b46c")
+	)
+	(hierarchical_label "PCIE_RX_0+"
+		(shape output)
+		(at 185.42 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "ad55640c-0e2d-4913-bc7f-05a2be4db3cc")
+	)
+	(hierarchical_label "PCIE_RX_1-"
+		(shape output)
+		(at 185.42 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bedb67d1-7f99-4e6b-b1f2-90a65a033c13")
+	)
+	(hierarchical_label "PCIE_RX_0-"
+		(shape output)
+		(at 185.42 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1e13319-360a-4fe4-aaad-fbf58f21b3ce")
+	)
+	(hierarchical_label "PCIE_RX_1+"
+		(shape output)
+		(at 185.42 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efcbe214-d673-4bc4-94a1-cf813863d94d")
+	)
+	(hierarchical_label "PCIE_TX_1+"
+		(shape input)
+		(at 88.9 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7594e95-415b-4471-a025-22200a8fbf9b")
+	)
+	(hierarchical_label "PCIE_RX_2-"
+		(shape output)
+		(at 185.42 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc2cb960-a29a-48bb-b372-21e0cac6819a")
+	)
+	(hierarchical_label "PE_RST"
+		(shape input)
+		(at 185.42 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fded82b0-e861-408a-adc8-49c34c615e16")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3527,7 +3267,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "15f1ae53-6832-46ae-8d99-f4bb5c625a3f")
 		(property "Reference" "#PWR066"
 			(at 116.84 87.63 0)
@@ -3605,7 +3345,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1b386913-51cf-46cd-a27c-f72d667fe54b")
 		(property "Reference" "C39"
 			(at 108.458 125.984 90)
@@ -3684,7 +3424,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2140f3f8-4de6-4440-81ae-536cad2a90ec")
 		(property "Reference" "C26"
 			(at 115.062 67.056 0)
@@ -3763,7 +3503,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "25b76d6b-1fd7-498a-85de-96950c3b133c")
 		(property "Reference" "C41"
 			(at 108.458 131.064 90)
@@ -3842,7 +3582,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2d95f0d2-1d1c-46e6-a445-6f03cfe56a64")
 		(property "Reference" "#PWR065"
 			(at 127 110.49 0)
@@ -3920,7 +3660,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3058fa1a-35a4-4fb4-a922-30bc8c1fd776")
 		(property "Reference" "C40"
 			(at 108.458 128.524 90)
@@ -3999,7 +3739,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3af1cb0e-7351-463d-ab0d-d009eea692e3")
 		(property "Reference" "C34"
 			(at 108.458 113.284 90)
@@ -4078,7 +3818,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "40808e33-a8b6-4a23-9626-34fb51bf1efc")
 		(property "Reference" "C38"
 			(at 108.458 123.444 90)
@@ -4157,7 +3897,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "40a2aa66-3160-4470-b4c4-d9661d8f7c01")
 		(property "Reference" "C30"
 			(at 169.672 67.056 0)
@@ -4236,7 +3976,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "44c29480-f31e-4668-890e-cfa83c343424")
 		(property "Reference" "C27"
 			(at 121.412 67.056 0)
@@ -4315,7 +4055,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "48200f61-632b-42b7-ab71-bfd0e96473e4")
 		(property "Reference" "#PWR064"
 			(at 148.59 148.59 0)
@@ -4393,7 +4133,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "54bb70d1-20ca-4f4d-8ed9-1f09e5d64948")
 		(property "Reference" "#PWR067"
 			(at 177.8 90.17 0)
@@ -4471,7 +4211,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "62050f6c-13a3-43f1-b3a5-94cc0ea13818")
 		(property "Reference" "C28"
 			(at 146.812 49.276 0)
@@ -4543,18 +4283,17 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 133.35 59.69 0)
+		(at 133.35 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "7606c91f-49db-4b16-a453-e2fa10b7a363")
 		(property "Reference" "#PWR092"
-			(at 133.35 63.5 0)
+			(at 133.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,18 +4303,19 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 133.35 54.61 0)
+		(property "Value" "+12VA"
+			(at 126.492 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 59.69 0)
+			(at 133.35 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 59.69 0)
+			(at 133.35 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,7 +4337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 133.35 59.69 0)
+			(at 133.35 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +4368,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8d21cdc9-dace-4907-8e20-cfcadcfb2fba")
 		(property "Reference" "#PWR068"
 			(at 148.59 38.1 0)
@@ -4706,7 +4446,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "90ed2deb-4929-4ab0-8fa3-63bcefcc07b0")
 		(property "Reference" "C36"
 			(at 108.458 118.364 90)
@@ -4785,7 +4525,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "99e3794b-ae52-40c1-a3c2-518e79fe4b65")
 		(property "Reference" "TP13"
 			(at 174.752 95.504 0)
@@ -4863,7 +4603,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b62e171e-649a-4c8d-98fa-6572fd472e33")
 		(property "Reference" "J16"
@@ -5131,7 +4871,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d1da8e7e-309b-403f-b296-5b232de6c59a")
 		(property "Reference" "C31"
 			(at 128.27 66.548 0)
@@ -5212,7 +4952,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e33a120f-83cd-488f-838c-5019e75b3a0e")
 		(property "Reference" "C29"
 			(at 154.432 49.276 0)
@@ -5291,7 +5031,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e6b9e0bc-01b0-4435-8838-9386d3f391a8")
 		(property "Reference" "C32"
 			(at 181.61 66.4209 0)
@@ -5372,7 +5112,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e817d035-aad6-4f41-9dc1-d3ec0424487b")
 		(property "Reference" "C35"
 			(at 108.458 115.824 90)
@@ -5451,7 +5191,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eec2be3d-7c03-404d-9821-8329019db22c")
 		(property "Reference" "#PWR069"
@@ -5529,7 +5269,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6431523-f183-4d6a-a36f-dbd8807078f4")
 		(property "Reference" "C37"
 			(at 108.458 120.904 90)

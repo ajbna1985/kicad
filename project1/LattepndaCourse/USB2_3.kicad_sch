@@ -4010,7 +4010,7 @@
 		)
 		(uuid "f0ab795d-6268-46ec-b0cc-268a9fcc20e5")
 	)
-	(global_label "USB_2_P3+"
+	(global_label "USB2_P3+"
 		(shape bidirectional)
 		(at 196.85 50.8 180)
 		(fields_autoplaced yes)
@@ -4022,7 +4022,7 @@
 		)
 		(uuid "1af39161-f180-43d9-9555-bc80c99741f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7469 50.8 0)
+			(at 182.7145 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4034,7 @@
 			)
 		)
 	)
-	(global_label "USB_2_P1-"
+	(global_label "USB2_P1-"
 		(shape bidirectional)
 		(at 55.88 86.36 180)
 		(fields_autoplaced yes)
@@ -4046,7 +4046,7 @@
 		)
 		(uuid "21d56f0f-c067-4c23-96ba-23fce0ca48b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.7769 86.36 0)
+			(at 41.7445 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4058,7 +4058,7 @@
 			)
 		)
 	)
-	(global_label "USB_2_P5-"
+	(global_label "USB2_P5-"
 		(shape bidirectional)
 		(at 196.85 48.26 180)
 		(fields_autoplaced yes)
@@ -4070,7 +4070,7 @@
 		)
 		(uuid "3a1aeea0-34af-42c7-a700-71948b773fc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7469 48.26 0)
+			(at 182.7145 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4106,7 @@
 			)
 		)
 	)
-	(global_label "USB_2_P1+"
+	(global_label "USB2_P1+"
 		(shape bidirectional)
 		(at 55.88 88.9 180)
 		(fields_autoplaced yes)
@@ -4118,7 +4118,7 @@
 		)
 		(uuid "52ea09bd-803a-4ee4-a40a-bcc222ed2a2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.7769 88.9 0)
+			(at 41.7445 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4202,7 @@
 			)
 		)
 	)
-	(global_label "USB_2_P2+"
+	(global_label "USB2_P2+"
 		(shape bidirectional)
 		(at 55.88 45.72 180)
 		(fields_autoplaced yes)
@@ -4214,7 +4214,7 @@
 		)
 		(uuid "68789d3f-f190-4227-bac1-e3a9df2b3adc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.7769 45.72 0)
+			(at 41.7445 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4274,7 +4274,7 @@
 			)
 		)
 	)
-	(global_label "USB_2_P3-"
+	(global_label "USB2_P3-"
 		(shape bidirectional)
 		(at 196.85 53.34 180)
 		(fields_autoplaced yes)
@@ -4286,7 +4286,7 @@
 		)
 		(uuid "93617d34-c58e-4aba-b06d-7a4df67e8cdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7469 53.34 0)
+			(at 182.7145 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4298,7 +4298,7 @@
 			)
 		)
 	)
-	(global_label "USB_2_P2-"
+	(global_label "USB2_P2-"
 		(shape bidirectional)
 		(at 55.88 43.18 180)
 		(fields_autoplaced yes)
@@ -4310,7 +4310,7 @@
 		)
 		(uuid "97251a9a-1adf-48f0-99d6-2387890c5744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.7769 43.18 0)
+			(at 41.7445 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

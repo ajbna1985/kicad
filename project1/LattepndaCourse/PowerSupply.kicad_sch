@@ -9885,101 +9885,49 @@
 		)
 		(uuid "eaf97fdb-a6cd-4949-bd72-098326dd0ee8")
 	)
-	(global_label "~{PWR_LED}{slash}~{PSON}"
-		(shape input)
-		(at 297.18 200.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8bd2c808-4a4a-42d3-8231-dce0f3ac94d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3177 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{PWR_SW}"
+	(hierarchical_label "~{PWR_SW}"
 		(shape output)
 		(at 287.02 267.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8f6cd27b-1246-446b-8a95-474510b5253a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.4149 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "5f4be44f-fd48-499d-ada4-49d0a4ea4c39")
 	)
-	(global_label "SLS_S3"
+	(hierarchical_label "~{RST_SW}"
+		(shape output)
+		(at 351.79 267.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95553da7-59b7-4850-a41f-1909ad83d46c")
+	)
+	(hierarchical_label "SLS_S3"
 		(shape input)
 		(at 299.72 173.99 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d07fd9e4-3a05-44b6-9206-a81c4fda1643")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.72 164.1711 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "c0ae6b99-901b-418f-b7bd-cf70930072a9")
 	)
-	(global_label "~{RST_SW}"
-		(shape output)
-		(at 351.79 267.97 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "~{PWR_LED}{slash}~{PSON}"
+		(shape input)
+		(at 297.18 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e1f4f38a-4ba6-4e2f-9c62-c0150fa08d6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.7292 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "c82d4218-ef40-4cce-a1ea-dcf584716a0b")
 	)
 	(symbol
 		(lib_id "power:+5V")
