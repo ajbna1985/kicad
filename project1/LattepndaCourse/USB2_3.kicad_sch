@@ -3690,6 +3690,16 @@
 		)
 		(uuid "fa0d8ed8-e2f9-4a8d-a072-6bfdbe43f593")
 	)
+	(label "CON_USB1_D_N"
+		(at 196.85 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04eca1ab-94cb-4299-8715-8776bc6e581c")
+	)
 	(label "CON_USB4_SSRX_N"
 		(at 76.2 93.98 0)
 		(effects
@@ -3880,6 +3890,26 @@
 		)
 		(uuid "896df6c6-db7b-4cce-9579-63f354d38d9e")
 	)
+	(label "CON_USB1_D_P"
+		(at 196.85 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c8cf421-e9d2-4906-9c58-1391c37d04ae")
+	)
+	(label "CON_USB2_D_N"
+		(at 196.85 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6d85ece-0833-4f25-bc05-c2008e7efb3f")
+	)
 	(label "CON_USB2_D_N"
 		(at 213.36 53.34 0)
 		(effects
@@ -3909,6 +3939,16 @@
 			(justify left bottom)
 		)
 		(uuid "b64b9c5a-38ab-4f12-aca9-b7d23aed9f54")
+	)
+	(label "CON_USB2_D_P"
+		(at 196.85 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbe98645-f795-4ec3-8017-c334ede8f530")
 	)
 	(label "CON_USB3_SSTX_N"
 		(at 76.2 58.42 0)
@@ -3992,17 +4032,6 @@
 		)
 		(uuid "2a470e96-0f95-4382-80f3-11addf0acddf")
 	)
-	(hierarchical_label "CON_USB2_D_P"
-		(shape bidirectional)
-		(at 196.85 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38edcca6-6f3d-4b0b-9493-5a73c950a30b")
-	)
 	(hierarchical_label "USB2_P3+"
 		(shape bidirectional)
 		(at 196.85 50.8 180)
@@ -4058,28 +4087,6 @@
 		)
 		(uuid "78089168-7f94-4ac4-b730-8d65f513dc78")
 	)
-	(hierarchical_label "CON_USB2_D_N"
-		(shape bidirectional)
-		(at 196.85 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "843fb3e8-5228-452d-923b-7c631f2d35fe")
-	)
-	(hierarchical_label "CON_USB1_D_P"
-		(shape bidirectional)
-		(at 196.85 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e130fa0-113f-4017-83ad-ae2b17f71cbb")
-	)
 	(hierarchical_label "USB2_P1-"
 		(shape bidirectional)
 		(at 55.88 86.36 180)
@@ -4123,17 +4130,6 @@
 			(justify right)
 		)
 		(uuid "c5d46e8c-206d-412a-8ef1-532c09755ec7")
-	)
-	(hierarchical_label "CON_USB1_D_N"
-		(shape bidirectional)
-		(at 196.85 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c93afdcc-2515-451f-89d3-521932015607")
 	)
 	(hierarchical_label "USB3_SSRT_P"
 		(shape bidirectional)
