@@ -507,7 +507,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 229.87) (xy 328.93 229.87)
+			(xy 320.04 237.49) (xy 328.93 237.49)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 222.25) (xy 328.93 222.25)
+			(xy 320.04 214.63) (xy 328.93 214.63)
 		)
 		(stroke
 			(width 0)
@@ -557,7 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 226.06) (xy 328.93 226.06)
+			(xy 320.04 218.44) (xy 328.93 218.44)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 218.44) (xy 328.93 218.44)
+			(xy 320.04 233.68) (xy 328.93 233.68)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 241.3) (xy 328.93 241.3)
+			(xy 320.04 226.06) (xy 328.93 226.06)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 233.68) (xy 328.93 233.68)
+			(xy 320.04 241.3) (xy 328.93 241.3)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 214.63) (xy 328.93 214.63)
+			(xy 320.04 229.87) (xy 328.93 229.87)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 237.49) (xy 328.93 237.49)
+			(xy 320.04 222.25) (xy 328.93 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3670,7 +3670,7 @@
 			)
 		)
 		(pin "HSIO_3_RX+" input
-			(at 320.04 214.63 0)
+			(at 320.04 229.87 0)
 			(uuid "d8c7b1ba-39a4-4c99-8cb5-5b3e55b764a7")
 			(effects
 				(font
@@ -3680,7 +3680,7 @@
 			)
 		)
 		(pin "HSIO_3_RX-" input
-			(at 320.04 218.44 0)
+			(at 320.04 233.68 0)
 			(uuid "217ca88f-11c7-4f4e-a8d3-7838207fc420")
 			(effects
 				(font
@@ -3690,7 +3690,7 @@
 			)
 		)
 		(pin "HSIO_3_TX+" output
-			(at 320.04 222.25 0)
+			(at 320.04 214.63 0)
 			(uuid "4755b217-4342-4e9b-b3ac-6a908b01e194")
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 			)
 		)
 		(pin "HSIO_3_TX-" output
-			(at 320.04 226.06 0)
+			(at 320.04 218.44 0)
 			(uuid "b6ecf643-7202-4f13-a842-f13db1360d7c")
 			(effects
 				(font
@@ -4330,7 +4330,7 @@
 			)
 		)
 		(pin "HSIO_2_RX+" input
-			(at 320.04 229.87 0)
+			(at 320.04 237.49 0)
 			(uuid "653b0e47-72f9-427b-9372-9afcbf9c8cc3")
 			(effects
 				(font
@@ -4340,7 +4340,7 @@
 			)
 		)
 		(pin "HSIO_2_RX-" input
-			(at 320.04 233.68 0)
+			(at 320.04 241.3 0)
 			(uuid "c95d3ae6-bd20-4141-90a3-82cbfbab84ab")
 			(effects
 				(font
@@ -4350,7 +4350,7 @@
 			)
 		)
 		(pin "HSIO_2_TX+" output
-			(at 320.04 237.49 0)
+			(at 320.04 222.25 0)
 			(uuid "7a2dd6a9-b17a-4740-8c80-8e484aee659b")
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 			)
 		)
 		(pin "HSIO_2_TX-" output
-			(at 320.04 241.3 0)
+			(at 320.04 226.06 0)
 			(uuid "91b395b1-ed1a-436a-a75b-5c3e7469716f")
 			(effects
 				(font
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(pin "PCIE_RX_0+" output
-			(at 328.93 214.63 180)
+			(at 328.93 229.87 180)
 			(uuid "c76a2075-3497-4ebc-8629-de23591acdc2")
 			(effects
 				(font
@@ -4426,7 +4426,7 @@
 			)
 		)
 		(pin "PCIE_RX_0-" output
-			(at 328.93 218.44 180)
+			(at 328.93 233.68 180)
 			(uuid "df52d5b7-239b-443b-96da-7b5ce32e2b4b")
 			(effects
 				(font
@@ -4436,7 +4436,7 @@
 			)
 		)
 		(pin "PCIE_TX_0+" input
-			(at 328.93 222.25 180)
+			(at 328.93 214.63 180)
 			(uuid "f8ade04a-5bea-4cea-955d-e392ce078a95")
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 			)
 		)
 		(pin "PCIE_TX_0-" input
-			(at 328.93 226.06 180)
+			(at 328.93 218.44 180)
 			(uuid "14ea5d8a-21c3-42f7-914a-868b8d27591a")
 			(effects
 				(font
@@ -4546,7 +4546,7 @@
 			)
 		)
 		(pin "PCIE_RX_1+" output
-			(at 328.93 229.87 180)
+			(at 328.93 237.49 180)
 			(uuid "de6a34e1-db6d-429b-8189-b16b7c079672")
 			(effects
 				(font
@@ -4556,7 +4556,7 @@
 			)
 		)
 		(pin "PCIE_RX_1-" output
-			(at 328.93 233.68 180)
+			(at 328.93 241.3 180)
 			(uuid "4bfadcc4-b6b1-4791-a6f1-7a63c7f579f8")
 			(effects
 				(font
@@ -4566,7 +4566,7 @@
 			)
 		)
 		(pin "PCIE_TX_1+" input
-			(at 328.93 237.49 180)
+			(at 328.93 222.25 180)
 			(uuid "c87d2c5b-c149-4b89-bbc1-56438f601c3a")
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 			)
 		)
 		(pin "PCIE_TX_1-" input
-			(at 328.93 241.3 180)
+			(at 328.93 226.06 180)
 			(uuid "c3770477-08a0-4320-bf68-861be5d8a625")
 			(effects
 				(font
