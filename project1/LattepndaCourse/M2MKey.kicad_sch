@@ -4863,7 +4863,7 @@
 		(uuid "04de4f22-1fed-45bb-8d75-0ac46155f7af")
 	)
 	(hierarchical_label "PCIE_TX_1+"
-		(shape output)
+		(shape input)
 		(at 30.48 63.5 180)
 		(effects
 			(font
@@ -4896,7 +4896,7 @@
 		(uuid "39ae0472-5b10-43e3-8afe-2d5fdb8d01ee")
 	)
 	(hierarchical_label "PCIE_RX_1-"
-		(shape input)
+		(shape output)
 		(at 30.48 71.12 180)
 		(effects
 			(font
@@ -4907,7 +4907,7 @@
 		(uuid "3bdb6218-8cfe-4de9-96d9-314d6176b077")
 	)
 	(hierarchical_label "PCIE_TX_0-"
-		(shape output)
+		(shape input)
 		(at 175.26 67.31 180)
 		(effects
 			(font
@@ -4918,7 +4918,7 @@
 		(uuid "439c33d8-87dc-4353-be8c-de085c8703a1")
 	)
 	(hierarchical_label "PCIE_TX_1-"
-		(shape output)
+		(shape input)
 		(at 30.48 66.04 180)
 		(effects
 			(font
@@ -4940,7 +4940,7 @@
 		(uuid "6d7748f1-10a8-47a1-ad92-430bd19bb572")
 	)
 	(hierarchical_label "PCIE_RX_0+"
-		(shape input)
+		(shape output)
 		(at 175.26 69.85 180)
 		(effects
 			(font
@@ -4973,7 +4973,7 @@
 		(uuid "956716f4-78b0-446a-8764-8ac9f8eeadeb")
 	)
 	(hierarchical_label "PCIE_RX_1+"
-		(shape input)
+		(shape output)
 		(at 30.48 68.58 180)
 		(effects
 			(font
@@ -4995,7 +4995,7 @@
 		(uuid "a88fa1d5-4b1e-46e2-b02b-372fdd8f5101")
 	)
 	(hierarchical_label "PCIE_RX_0-"
-		(shape input)
+		(shape output)
 		(at 175.26 72.39 180)
 		(effects
 			(font
@@ -5017,7 +5017,7 @@
 		(uuid "c186de77-561c-4f12-8b3b-af85d8edca65")
 	)
 	(hierarchical_label "PCIE_TX_0+"
-		(shape output)
+		(shape input)
 		(at 175.26 64.77 180)
 		(effects
 			(font
