@@ -1646,7 +1646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 410.21 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1669,6 +1669,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 410.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 410.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 410.21 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1804,7 +1826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 410.21 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -1827,6 +1849,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 410.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 410.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 410.21 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -1884,7 +1928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 444.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1907,6 +1951,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 444.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 444.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 444.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1963,7 +2029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:Fiducial_0.5mm_Mask1mm"
 			(at 444.5 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -1986,6 +2052,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 444.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 444.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 444.5 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -2118,7 +2206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
 			(at 444.5 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -2141,6 +2229,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 444.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 444.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 444.5 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -2197,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HDJ_Library:Fiducial_0.5mm_Mask1mm"
 			(at 410.21 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -2220,6 +2330,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 410.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 410.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 410.21 181.61 0)
 			(hide yes)
 			(show_name no)
